@@ -1,4 +1,4 @@
-#### This Code Was Devloped By @AM_ROBOTS ####
+#### This Code Was Devloped By @zeeflix_owner ####
 
 import re
 from os import environ
@@ -13,7 +13,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://paisakamalo.in/')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'http://Mdiskshortner.link/')
     START_TXT = environ.get("START_TXT", "𝙷𝙴𝙻𝙾 {}")
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
