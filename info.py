@@ -37,8 +37,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Zeeflix")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Zeeflix_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'sources_cods')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001744201813'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'zeeflix_chat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
